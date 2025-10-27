@@ -1,0 +1,13 @@
+{
+    "ConfigRuleName": "iam-role-policy-compliance-check",
+    "Source": {
+        "Owner": "CUSTOM_LAMBDA",
+        "SourceIdentifier": "complianceCheckerLambda"
+    },
+    "InputParameters": {},
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::IAM::Role"
+        ]
+    }
+}

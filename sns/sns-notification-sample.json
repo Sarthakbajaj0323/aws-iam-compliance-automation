@@ -1,0 +1,4 @@
+{
+    "Subject": "\u26a0\ufe0f IAM Compliance Alert",
+    "Message": "Non-compliant IAM Role detected: DevOpsRole. Please review policy immediately."
+}

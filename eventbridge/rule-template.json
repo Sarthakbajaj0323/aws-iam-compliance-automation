@@ -1,0 +1,19 @@
+{
+    "Source": [
+        "aws.config"
+    ],
+    "DetailType": [
+        "Config Configuration Item Change"
+    ],
+    "Detail": {
+        "resourceType": [
+            "AWS::IAM::Role"
+        ]
+    },
+    "Targets": [
+        {
+            "Arn": "arn:aws:lambda:region:account-id:function:complianceChecker",
+            "Id": "ComplianceCheckerLambda"
+        }
+    ]
+}
