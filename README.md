@@ -5,11 +5,6 @@ A **serverless AWS automation system** that continuously audits IAM roles and po
 
 ---
 
-### 🧱 Architecture
-![Architecture Diagram](architecture/architecture-diagram.png)
-
----
-
 ### 🧩 Core AWS Services Used
 - **AWS Config** – Monitors IAM configuration changes  
 - **Amazon EventBridge** – Triggers Lambda on drift events  
